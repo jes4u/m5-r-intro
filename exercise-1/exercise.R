@@ -19,7 +19,8 @@
 hometown <- "Renton"
 my.name <- "Jesse"
 my.height <- "5'4"
-puppies <- 10000
-total.cost <- 100000
+puppies <- 100
+puppy.price <- 100
+total.cost <- puppies * puppy.price
 too.expensive <- total.cost > 1000
 max.puppies <- 1000/(total.cost/puppies)
